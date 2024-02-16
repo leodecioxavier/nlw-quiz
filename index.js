@@ -1,95 +1,106 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
-      respostas: [
-        "var myVar;",
-        "let myVar;",
-        "const myVar;",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o operador '===' faz em JavaScript?",
-      respostas: [
-        "Compara dois valores para igualdade, sem verificar o tipo.",
-        "Compara dois valores para igualdade, verificando o tipo.",
-        "Atribui um valor a uma variável.",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o método correto para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "array.add(element)",
-        "array.push(element)",
-        "array.insert(element)",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'map()' faz em JavaScript?",
-      respostas: [
-        "Itera sobre os elementos de um array e executa uma função em cada elemento.",
-        "Filtra os elementos de um array com base em uma função de teste.",
-        "Retorna o primeiro elemento de um array que satisfaz a função de teste.",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o operador de negação em JavaScript?",
-      respostas: [
-        "!",
-        "&",
-        "|",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
-      respostas: [
-        "array.pop()",
-        "array.removeLast()",
-        "array.splice(-1)",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o operador '&&' faz em JavaScript?",
-      respostas: [
-        "Operador de adição",
-        "Operador de multiplicação",
-        "Operador lógico 'E' (AND)",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a forma correta de escrever um comentário de linha em JavaScript?",
-      respostas: [
-        "// Comentário",
-        "' Comentário",
-        "* Comentário",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o método 'forEach()' faz em JavaScript?",
-      respostas: [
-        "Executa uma função uma vez para cada elemento do array.",
-        "Filtra os elementos de um array com base em uma função de teste.",
-        "Retorna true se pelo menos um elemento do array satisfaz a função de teste.",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do método 'parseInt()' em JavaScript?",
-      respostas: [
-        "Converte uma string em um número inteiro.",
-        "Converte um número inteiro em uma string.",
-        "Retorna o valor absoluto de um número.",
-      ],
-      correta: 0
-    },
-  ];
+  {
+    pergunta: "Qual é a função das cordas vocais?",
+    respostas: [
+      "A. Produzir ar",
+      "B. Filtrar o som",
+      "C. Produzir som",
+      "D. Regular a temperatura da voz",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é o vibrato na técnica vocal?",
+    respostas: [
+      "A. Uma técnica para projetar a voz",
+      "B. Uma técnica para controlar a respiração",
+      "C. Uma oscilação de pitch na voz",
+      "D. Uma técnica de aquecimento vocal",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é a importância da respiração na técnica vocal?",
+    respostas: [
+      "A. Controlar a temperatura da voz",
+      "B. Melhorar a postura",
+      "C. Produzir som de forma saudável e controlada",
+      "D. Aumentar a ressonância vocal",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é falsete na técnica vocal?",
+    respostas: [
+      "A. Uma técnica para alcançar notas graves",
+      "B. Uma técnica para alcançar notas agudas",
+      "C. Uma técnica para projeção vocal",
+      "D. Uma técnica para respiração profunda",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é a tessitura vocal?",
+    respostas: [
+      "A. O alcance vocal de uma pessoa",
+      "B. A projeção vocal em um espaço amplo",
+      "C. A técnica de vibrato",
+      "D. O controle do volume da voz",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "O que é um belting na técnica vocal?",
+    respostas: [
+      "A. Uma técnica para respiração diafragmática",
+      "B. Uma técnica para cantar notas longas",
+      "C. Uma técnica para cantar notas curtas com volume alto",
+      "D. Uma técnica para alcançar notas graves",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é o registro vocal de peito na técnica vocal?",
+    respostas: [
+      "A. Um registro para alcançar notas agudas",
+      "B. Um registro para notas graves",
+      "C. Um registro para respiração controlada",
+      "D. Um registro para projeção vocal",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a importância do aquecimento vocal antes de cantar?",
+    respostas: [
+      "A. Evitar a desidratação",
+      "B. Prevenir lesões nas cordas vocais",
+      "C. Aumentar a potência vocal",
+      "D. Regular a temperatura corporal",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é o vibrato na técnica vocal?",
+    respostas: [
+      "A. Uma técnica para projetar a voz",
+      "B. Uma técnica para controlar a respiração",
+      "C. Uma oscilação de pitch na voz",
+      "D. Uma técnica de aquecimento vocal",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é um bel canto na técnica vocal?",
+    respostas: [
+      "A. Uma técnica para respiração profunda",
+      "B. Uma técnica para alcançar notas longas",
+      "C. Uma técnica para cantar com expressividade e beleza",
+      "D. Uma técnica para respiração controlada",
+    ],
+    correta: 2
+  },
+];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
