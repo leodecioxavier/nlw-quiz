@@ -1,105 +1,106 @@
 const perguntas = [
   {
-    pergunta: "Qual é a função das cordas vocais?",
+    pergunta: "Qual é a função do diafragma na técnica vocal?",
     respostas: [
-      "A. Produzir ar",
-      "B. Filtrar o som",
-      "C. Produzir som",
-      "D. Regular a temperatura da voz",
+      "Ajudar na articulação das palavras.",
+      "Controlar a respiração e oferecer suporte para a voz.",
+      "Aumentar o volume da voz.",
+      "Produzir ressonância nas notas mais altas.",
     ],
-    correta: 2
+    correta: 1
   },
   {
     pergunta: "O que é o vibrato na técnica vocal?",
     respostas: [
-      "A. Uma técnica para projetar a voz",
-      "B. Uma técnica para controlar a respiração",
-      "C. Uma oscilação de pitch na voz",
-      "D. Uma técnica de aquecimento vocal",
+      "Um tipo de exercício para aquecimento vocal.",
+      "Um registro vocal específico.",
+      "Uma técnica de respiração para notas sustentadas.",
+      "Uma oscilação controlada na frequência da voz.",
     ],
-    correta: 2
+    correta: 3
   },
   {
-    pergunta: "Qual é a importância da respiração na técnica vocal?",
+    pergunta: "Qual é a importância do aquecimento vocal?",
     respostas: [
-      "A. Controlar a temperatura da voz",
-      "B. Melhorar a postura",
-      "C. Produzir som de forma saudável e controlada",
-      "D. Aumentar a ressonância vocal",
+      "Aumentar o volume da voz.",
+      "Prevenir lesões nas cordas vocais.",
+      "Ajudar na modulação da voz.",
+      "Controlar a respiração durante a performance.",
     ],
-    correta: 2
+    correta: 1
   },
   {
     pergunta: "O que é falsete na técnica vocal?",
     respostas: [
-      "A. Uma técnica para alcançar notas graves",
-      "B. Uma técnica para alcançar notas agudas",
-      "C. Uma técnica para projeção vocal",
-      "D. Uma técnica para respiração profunda",
+      "Um tipo de escala musical.",
+      "Um termo técnico para falhas na performance vocal.",
+      "Um registro vocal mais agudo e leve.",
+      "Um tipo de exercício para expandir o alcance vocal.",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é a função do apoio diafragmático na técnica vocal?",
+    respostas: [
+      "Produzir um som mais agudo.",
+      "Ajudar a controlar a respiração e fornecer sustentação para a voz.",
+      "Aumentar a ressonância vocal.",
+      "Melhorar a dicção durante a performance.",
     ],
     correta: 1
   },
   {
-    pergunta: "O que é a tessitura vocal?",
+    pergunta: "O que é articulação na técnica vocal?",
     respostas: [
-      "A. O alcance vocal de uma pessoa",
-      "B. A projeção vocal em um espaço amplo",
-      "C. A técnica de vibrato",
-      "D. O controle do volume da voz",
+      "O processo de aquecer as cordas vocais antes da performance.",
+      "A habilidade de cantar em vários idiomas.",
+      "A clareza e precisão na pronúncia das palavras durante a performance.",
+      "Um tipo de exercício para aumentar a flexibilidade vocal.",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é ressonância na técnica vocal?",
+    respostas: [
+      "A capacidade de projetar a voz sem amplificação.",
+      "Um tipo de técnica de respiração.",
+      "A habilidade de cantar notas muito baixas.",
+      "A amplificação natural do som vocal pelas cavidades de ressonância.",
+    ],
+    correta: 3
+  },
+  {
+    pergunta: "O que é registro vocal na técnica vocal?",
+    respostas: [
+      "A documentação do histórico vocal de um cantor.",
+      "A amplitude de notas que um cantor pode atingir.",
+      "Um tipo de treinamento vocal intensivo.",
+      "As diferentes áreas da voz em que a ressonância é sentida.",
+    ],
+    correta: 3
+  },
+  {
+    pergunta: "O que é projeção vocal?",
+    respostas: [
+      "A capacidade de cantar sem microfone em um ambiente amplo.",
+      "Um tipo de treinamento para ampliar o alcance vocal.",
+      "A técnica de respiração para notas mais altas.",
+      "A capacidade de cantar em várias línguas.",
     ],
     correta: 0
   },
   {
-    pergunta: "O que é um belting na técnica vocal?",
+    pergunta: "Qual é a importância do descanso vocal?",
     respostas: [
-      "A. Uma técnica para respiração diafragmática",
-      "B. Uma técnica para cantar notas longas",
-      "C. Uma técnica para cantar notas curtas com volume alto",
-      "D. Uma técnica para alcançar notas graves",
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "O que é o registro vocal de peito na técnica vocal?",
-    respostas: [
-      "A. Um registro para alcançar notas agudas",
-      "B. Um registro para notas graves",
-      "C. Um registro para respiração controlada",
-      "D. Um registro para projeção vocal",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é a importância do aquecimento vocal antes de cantar?",
-    respostas: [
-      "A. Evitar a desidratação",
-      "B. Prevenir lesões nas cordas vocais",
-      "C. Aumentar a potência vocal",
-      "D. Regular a temperatura corporal",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "O que é o vibrato na técnica vocal?",
-    respostas: [
-      "A. Uma técnica para projetar a voz",
-      "B. Uma técnica para controlar a respiração",
-      "C. Uma oscilação de pitch na voz",
-      "D. Uma técnica de aquecimento vocal",
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "O que é um bel canto na técnica vocal?",
-    respostas: [
-      "A. Uma técnica para respiração profunda",
-      "B. Uma técnica para alcançar notas longas",
-      "C. Uma técnica para cantar com expressividade e beleza",
-      "D. Uma técnica para respiração controlada",
+      "Manter a voz em um tom baixo durante o repouso.",
+      "Evitar o uso da voz em todas as circunstâncias.",
+      "Recuperar as cordas vocais após períodos de uso intenso.",
+      "Praticar técnicas de respiração profunda.",
     ],
     correta: 2
   },
 ];
+
 
   
   const quiz = document.querySelector('#quiz')
